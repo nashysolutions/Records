@@ -2,6 +2,11 @@
 
 A light-weight wrapper around some of the CoreData API.
 
+## Demo
+
+ - [Demo 1](https://github.com/nashysolutions/RecordsDemo1)
+ - [Demo 2](https://github.com/nashysolutions/RecordsDemo2)
+
 ## Usage
 
 ![](https://user-images.githubusercontent.com/64097812/112747129-39648280-8fab-11eb-81eb-cd6482e5ddde.png)
