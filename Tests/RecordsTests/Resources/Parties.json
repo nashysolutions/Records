@@ -1,0 +1,26 @@
+[
+ {
+ "Name": "School1",
+ "Phone": "01234567891",
+ "Email": "school1@school1.com",
+ "Type": "School"
+ },
+ {
+ "Name": "School2",
+ "Phone": "02234567891",
+ "Email": "school2@school2.com",
+ "Type": "School"
+ },
+ {
+ "Name": "School3",
+ "Phone": "03234567891",
+ "Email": "school3@school3.com",
+ "Type": "School"
+ },
+ {
+ "Name": "School4",
+ "Phone": "04234567891",
+ "Email": "school4@school.com",
+ "Type": "School"
+ }
+]

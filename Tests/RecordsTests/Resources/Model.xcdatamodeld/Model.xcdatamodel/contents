@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18C54" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Event" representedClassName="Event" syncable="YES">
+        <attribute name="identifier" attributeType="Integer 64" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="startDate" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="performances" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Performance" inverseName="event" inverseEntity="Performance" syncable="YES"/>
+    </entity>
+    <entity name="Party" representedClassName="Party" syncable="YES">
+        <attribute name="email" attributeType="String" minValueString="1" syncable="YES"/>
+        <attribute name="name" attributeType="String" minValueString="1" syncable="YES"/>
+        <attribute name="phone" attributeType="String" minValueString="1" syncable="YES"/>
+        <attribute name="type" attributeType="String" minValueString="1" defaultValueString="School" syncable="YES"/>
+        <relationship name="performers" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Performer" inverseName="party" inverseEntity="Performer" syncable="YES"/>
+    </entity>
+    <entity name="Performance" representedClassName="Performance" syncable="YES">
+        <attribute name="ability" attributeType="String" minValueString="1" defaultValueString="Newcomer" syncable="YES"/>
+        <attribute name="group" attributeType="String" minValueString="1" defaultValueString="Solo" syncable="YES"/>
+        <relationship name="event" maxCount="1" deletionRule="Nullify" destinationEntity="Event" inverseName="performances" inverseEntity="Event" syncable="YES"/>
+        <relationship name="performers" toMany="YES" minCount="1" deletionRule="Nullify" destinationEntity="Performer" inverseName="performances" inverseEntity="Performer" syncable="YES"/>
+    </entity>
+    <entity name="Performer" representedClassName="Performer" syncable="YES">
+        <attribute name="dob" attributeType="Date" defaultDateTimeInterval="487033200" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="firstName" attributeType="String" minValueString="1" syncable="YES"/>
+        <attribute name="lastName" attributeType="String" minValueString="1" syncable="YES"/>
+        <relationship name="party" maxCount="1" deletionRule="Nullify" destinationEntity="Party" inverseName="performers" inverseEntity="Party" syncable="YES"/>
+        <relationship name="performances" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Performance" inverseName="performers" inverseEntity="Performance" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Event" positionX="-117" positionY="-207" width="128" height="88"/>
+        <element name="Party" positionX="457" positionY="-207" width="128" height="118"/>
+        <element name="Performance" positionX="72" positionY="-216" width="128" height="103"/>
+        <element name="Performer" positionX="261" positionY="-154" width="128" height="118"/>
+    </elements>
+</model>

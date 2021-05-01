@@ -1,0 +1,377 @@
+[
+    {
+      "Ability": "Newcomer",
+      "Group": "Solo",
+      "Performers": [
+        {
+          "First Name": "Angel",
+          "Last Name": "Jones",
+          "D.O.B": "5/4/2009"
+        }
+      ]
+    },
+    {
+      "Ability": "Newcomer",
+      "Group": "Solo",
+      "Performers": [
+        {
+          "First Name": "Ashton",
+          "Last Name": "Longworth",
+          "D.O.B": "19/5/2001"
+        }
+      ]
+    },
+    {
+      "Ability": "Newcomer",
+      "Group": "Solo",
+      "Performers": [
+        {
+          "First Name": "Bob",
+          "Last Name": "Fisher ",
+          "D.O.B": "15/2/2010"
+        }
+      ]
+    },
+    {
+      "Ability": "Newcomer",
+      "Group": "Solo",
+      "Performers": [
+        {
+          "First Name": "Emelia",
+          "Last Name": "Davies",
+          "D.O.B": "29/5/2008"
+        }
+      ]
+    },
+    {
+      "Ability": "Newcomer",
+      "Group": "Solo",
+      "Performers": [
+        {
+          "First Name": "Jamie",
+          "Last Name": "Probert",
+          "D.O.B": "14/8/2010"
+        }
+      ]
+    },
+    {
+      "Ability": "Newcomer",
+      "Group": "Solo",
+      "Performers": [
+        {
+          "First Name": "Grace",
+          "Last Name": "Davies",
+          "D.O.B": "24/8/2008"
+        }
+      ]
+    },
+    {
+      "Ability": "Newcomer",
+      "Group": "Solo",
+      "Performers": [
+        {
+          "First Name": "Hannah",
+          "Last Name": "Coombs",
+          "D.O.B": "4/6/2010"
+        }
+      ]
+    },
+    {
+      "Ability": "Newcomer",
+      "Group": "Solo",
+      "Performers": [
+        {
+          "First Name": "Sally",
+          "Last Name": "Butler",
+          "D.O.B": "15/12/2009"
+        }
+      ]
+    },
+    {
+      "Ability": "Newcomer",
+      "Group": "Solo",
+      "Performers": [
+        {
+          "First Name": "Kaci",
+          "Last Name": "Dubbleworth",
+          "D.O.B": "24/9/2009"
+        }
+      ]
+    },
+    {
+      "Ability": "Newcomer",
+      "Group": "Solo",
+      "Performers": [
+        {
+          "First Name": "Kadie",
+          "Last Name": "Bones",
+          "D.O.B": "17/11/2008"
+        }
+      ]
+    },
+    {
+      "Ability": "Beginner",
+      "Group": "Solo",
+      "Performers": [
+        {
+          "First Name": "Leo",
+          "Last Name": "Baker",
+          "D.O.B": "9/10/2010"
+        }
+      ]
+    },
+    {
+      "Ability": "Beginner",
+      "Group": "Solo",
+      "Performers": [
+        {
+          "First Name": "Tiana",
+          "Last Name": "Rogers",
+          "D.O.B": "18/4/2009"
+        }
+      ]
+    },
+    {
+      "Ability": "Newcomer",
+      "Group": "Solo",
+      "Performers": [
+        {
+          "First Name": "Maggie",
+          "Last Name": "Phillips",
+          "D.O.B": "4/1/2007"
+        }
+      ]
+    },
+    {
+      "Ability": "Newcomer",
+      "Group": "Duo",
+      "Performers": [
+        {
+          "First Name": "David",
+          "Last Name": "Bennett",
+          "D.O.B": "5/4/2009"
+        },
+        {
+          "First Name": "Maggie",
+          "Last Name": "Mince",
+          "D.O.B": "4/1/2007"
+        }
+      ]
+    },
+    {
+      "Ability": "Newcomer",
+      "Group": "Duo",
+      "Performers": [
+        {
+          "First Name": "Ashton",
+          "Last Name": "Mayweather",
+          "D.O.B": "20/5/2011"
+        },
+        {
+          "First Name": "Erin",
+          "Last Name": "Stevens",
+          "D.O.B": "14/9/2011"
+        }
+      ]
+    },
+    {
+      "Ability": "Newcomer",
+      "Group": "Duo",
+      "Performers": [
+        {
+          "First Name": "Billie Bob",
+          "Last Name": "Fisher",
+          "D.O.B": "15/2/2010"
+        },
+        {
+          "First Name": "Yassmine",
+          "Last Name": "Davies",
+          "D.O.B": "3/10/2008"
+        }
+      ]
+    },
+    {
+      "Ability": "Newcomer",
+      "Group": "Duo",
+      "Performers": [
+        {
+          "First Name": "Ellie",
+          "Last Name": "Edwards",
+          "D.O.B": "11/10/2006"
+        },
+        {
+          "First Name": "Macy",
+          "Last Name": "Owen",
+          "D.O.B": "6/5/2007"
+        }
+      ]
+    },
+    {
+      "Ability": "Newcomer",
+      "Group": "Duo",
+      "Performers": [
+        {
+          "First Name": "Emelia",
+          "Last Name": "Lewis",
+          "D.O.B": "28/9/2008"
+        },
+        {
+          "First Name": "Grace",
+          "Last Name": "Butts",
+          "D.O.B": "23/9/2008"
+        }
+      ]
+    },
+    {
+      "Ability": "Newcomer",
+      "Group": "Duo",
+      "Performers": [
+        {
+          "First Name": "Hannah",
+          "Last Name": "Baker",
+          "D.O.B": "4/5/2009"
+        },
+        {
+          "First Name": "Kadie",
+          "Last Name": "Thomas",
+          "D.O.B": "17/11/2008"
+        }
+      ]
+    },
+    {
+      "Ability": "Newcomer",
+      "Group": "Duo",
+      "Performers": [
+        {
+          "First Name": "Kacee",
+          "Last Name": "Nash",
+          "D.O.B": "15/10/2009"
+        },
+        {
+          "First Name": "Kaci",
+          "Last Name": "Greene",
+          "D.O.B": "22/9/2009"
+        }
+      ]
+    },
+    {
+      "Ability": "Beginner",
+      "Group": "Duo",
+      "Performers": [
+        {
+          "First Name": "Leo",
+          "Last Name": "Phillips",
+          "D.O.B": "9/10/2009"
+        },
+        {
+          "First Name": "Tiana",
+          "Last Name": "Edwards",
+          "D.O.B": "18/4/2009"
+        }
+      ]
+    },
+     {
+     "Ability": "Beginner",
+     "Group": "Duo",
+     "Performers": [
+                    {
+                    "First Name": "Angel",
+                    "Last Name": "Jones",
+                    "D.O.B": "5/4/2009"
+                    },
+                    {
+                    "First Name": "Ashton",
+                    "Last Name": "Longworth",
+                    "D.O.B": "19/5/2001"
+                    }
+                    ]
+     },
+    {
+      "Ability": "Newcomer",
+      "Group": "Team",
+      "Title": "Revolution",
+      "Performers": [
+        {
+          "First Name": "Angel",
+          "Last Name": "Jones",
+          "D.O.B": "5/4/2009"
+        },
+        {
+          "First Name": "Ashton",
+          "Last Name": "Longworth",
+          "D.O.B": "19/5/2001"
+        },
+        {
+          "First Name": "Billie Bob",
+          "Last Name": "Fisher",
+          "D.O.B": "15/2/2010"
+        },
+        {
+          "First Name": "Ellie",
+          "Last Name": "Edwards",
+          "D.O.B": "11/10/2006"
+        },
+        {
+          "First Name": "Emelia",
+          "Last Name": "Davies",
+          "D.O.B": "29/5/2008"
+        },
+        {
+          "First Name": "Erin",
+          "Last Name": "Stevens",
+          "D.O.B": "14/9/2011"
+        },
+        {
+          "First Name": "Grace",
+          "Last Name": "Butts",
+          "D.O.B": "23/9/2008"
+        },
+        {
+          "First Name": "Hannah",
+          "Last Name": "Coombs",
+          "D.O.B": "4/6/2010"
+        },
+        {
+          "First Name": "Kacee",
+          "Last Name": "Nash",
+          "D.O.B": "15/10/2009"
+        },
+        {
+          "First Name": "Kaci",
+          "Last Name": "Greene",
+          "D.O.B": "22/9/2009"
+        },
+        {
+          "First Name": "Kadie",
+          "Last Name": "Bones",
+          "D.O.B": "17/11/2008"
+        },
+        {
+          "First Name": "Leo",
+          "Last Name": "Phillips",
+          "D.O.B": "9/10/2009"
+        },
+        {
+          "First Name": "Macy",
+          "Last Name": "Owen",
+          "D.O.B": "6/5/2007"
+        },
+        {
+          "First Name": "Maggie",
+          "Last Name": "Phillips",
+          "D.O.B": "4/1/2007"
+        },
+        {
+          "First Name": "Tiana",
+          "Last Name": "Edwards",
+          "D.O.B": "18/4/2009"
+        },
+        {
+          "First Name": "Yassmine",
+          "Last Name": "Davies",
+          "D.O.B": "3/10/2008"
+        }
+      ]
+    }
+]
+
