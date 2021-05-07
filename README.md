@@ -163,7 +163,7 @@ In each of your NSManagedObject subclasses:
 2. Add annotation marks for Sourcery.
 3. Change `NSSet` to `Set<Something>`
 
-For example, `Performer`, should look like the following (Assuming your template file is called `ManagedObject.Query.stencil`).
+For example, `Performer`, should look like the following (Assuming your template file is called `ManagedObjectQuery.stencil`).
 
 ```swift
 import CoreData
