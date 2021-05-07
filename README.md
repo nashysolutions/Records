@@ -126,7 +126,7 @@ final class EventsViewController: UIViewController {
 
 ## Installation
 
-Copy this [template file](https://github.com/nashysolutions/RecordsDemo/blob/master/Sourcery/Templates/ManagedObject.Query.stencil) to your project.
+Copy this [template file](https://github.com/nashysolutions/RecordsDemo1/blob/master/Performances/Database/Stencils/ManagedObjectQuery.stencil) to your project.
 
 Install [Sourcery](https://github.com/krzysztofzablocki/Sourcery).
 
@@ -179,7 +179,7 @@ public class Performer: NSManagedObject, Fetchable {
 @NSManaged public var performances: Set<Performance>?
 }
 
-// sourcery:inline:Performer.ManagedObject.Query.stencil
+// sourcery:inline:Performer.ManagedObjectQuery.stencil
 // sourcery:end
 ```
 
