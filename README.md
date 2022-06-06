@@ -1,5 +1,8 @@
 # Records
 
+![iOS](https://img.shields.io/badge/iOS-10%2B-blue)
+![macOS](https://img.shields.io/badge/macOS-10.12%2B-blue)
+
 A light-weight wrapper around some of the CoreData API.
 
 ## Demo
