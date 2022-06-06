@@ -1,7 +1,7 @@
-import UIKit
-@testable import Records
 import CoreData
 import XCTest
+
+@testable import Records
 
 final class FetchedResultsControllerTests: BaseTests {
     

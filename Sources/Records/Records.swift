@@ -1,4 +1,3 @@
-import UIKit
 import CoreData
 
 /// An interface for extracting records from CoreData
@@ -126,6 +125,14 @@ public protocol FetchedResultsControllerDelegate: AnyObject {
     func didReload()
 }
 
+#if canImport(UIKit)
+import UIKit
+
+public protocol FetchedResultsTableView: UITableView, FetchedResultsControllerDelegate {
+    associatedtype Cell: UITableViewCell
+    func dequeue(at indexPath: IndexPath, for record: Record) -> Cell
+}
+
 public extension FetchedResultsControllerDelegate where Self: UICollectionView {
     
     func perform(tasks: [FetchedResultsControllerTask<Record>]) {
@@ -190,6 +197,7 @@ public extension FetchedResultsControllerDelegate where Self: FetchedResultsTabl
         reloadRows(at: [indexPath], with: .none)
     }
 }
+#endif
 
 open class FetchedResultsController<Delegate: FetchedResultsControllerDelegate>: NSObject, NSFetchedResultsControllerDelegate {
     
@@ -358,11 +366,6 @@ public struct Aggregate<T: NSManagedObject> {
         }
     }
     
-}
-
-public protocol FetchedResultsTableView: UITableView, FetchedResultsControllerDelegate {
-    associatedtype Cell: UITableViewCell
-    func dequeue(at indexPath: IndexPath, for record: Record) -> Cell
 }
 
 public struct StringParameter {
