@@ -1,7 +1,7 @@
-import UIKit
-@testable import Records
 import CoreData
 import XCTest
+
+@testable import Records
 
 final class FetchedResultsControllerTests: BaseTests {
     
@@ -61,7 +61,7 @@ final class FetchedResultsControllerTests: BaseTests {
                     return
                 }
                 XCTAssert(indexPath.section == 0)
-                XCTAssert(indexPath.row == 2)
+                XCTAssert(indexPath.item == 2)
                 didInsert = true
             }
             func didReload() {}
@@ -110,7 +110,7 @@ final class FetchedResultsControllerTests: BaseTests {
                     return
                 }
                 XCTAssert(indexPath.section == 1)
-                XCTAssert(indexPath.row == 0)
+                XCTAssert(indexPath.item == 0)
                 didInsert = true
             }
             func didReload() {}
@@ -172,7 +172,7 @@ final class FetchedResultsControllerTests: BaseTests {
                     return
                 }
                 XCTAssert(indexPath.section == 0)
-                XCTAssert(indexPath.row == 0)
+                XCTAssert(indexPath.item == 0)
                 didDelete = true
             }
             func didReload() {}
