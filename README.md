@@ -180,6 +180,11 @@ public class Performer: NSManagedObject, Fetchable {
 @NSManaged public var party: Party
 //@NSManaged public var performances: NSSet?
 @NSManaged public var performances: Set<Performance>?
+
+/// sourcery:sourcerySkip
+var dateString: String {
+  return formatter(dob)
+}
 }
 
 // sourcery:inline:Performer.ManagedObjectQuery.stencil
